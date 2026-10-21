@@ -1,0 +1,358 @@
+/* Navbar */
+.navbar {
+    background-color: rgb(11, 24, 67);
+    padding: 20px 4%;
+}
+
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #e43d3d;
+}
+
+.navbar-brand:hover {
+    color: #e43d3d;
+}
+
+.navbar-nav {
+    gap: 15px;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #e43d3d;
+}
+
+.reservation-btn {
+    background-color: #e43d3d;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reservation-btn:hover {
+    background-color: #c92e2e;
+}
+
+/* Hero section*/
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.main-heading {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.CTA {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e43d3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CTA:hover {
+    background-color: rgb(15, 30, 69);
+    cursor: pointer;
+}
+
+.booking-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    background-color: rgba(8, 32, 65, 0.7);
+}
+
+.booking-area input,
+.booking-area select {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.booking-area button {
+    flex: 1;
+    padding: 15px;
+    background-color: #e43d3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about-content {
+    padding: 20px 30px;
+}
+
+/* Welcome text */
+.about-content .text-danger {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Resort name */
+.about-content h2 {
+    font-family: Georgia, serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #102d52;
+    margin-bottom: 0;
+}
+
+/* Location */
+.about-content h3 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #102d52;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.about-content h4 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #102d52;
+    margin-bottom: 25px;
+}
+
+/* Description paragraphs */
+.about-content p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #777;
+}
+
+
+/* Stats Section */
+.stats-section {
+    background:
+        linear-gradient(rgba(10, 30, 50, 0.55), rgba(10, 30, 50, 0.55)),
+        url("./images/resort 2.jpg") center/cover no-repeat;
+    padding: 60px 20px;
+    color: white;
+}
+
+.stats-section .row {
+    align-items: center;
+}
+
+.stat-icon {
+    background-color: #e43d3d;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+.stat-icon img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+
+.stats-section h2 {
+    font-family: Georgia, serif;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.stats-section h4 {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+/* Our Rooms Section */
+.rooms-section {
+    background: #fff;
+}
+
+.rooms-subtitle {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+    color: #e43d3d;
+    margin-bottom: 5px;
+}
+
+.rooms-heading {
+    font-family: Georgia, serif;
+    font-size: 68px;
+    line-height: 1.25;
+    font-weight: bold;
+    color: #102d52;
+}
+
+/* Room Card */
+.room-card {
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.06);
+}
+
+.room-details {
+    height: 100%;
+    background: #f1f3f5;
+    text-align: center;
+}
+
+.room-price {
+    background: #e43d3d;
+    color: #fff;
+    padding: 18px 4px;
+}
+
+.room-price h4 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.room-price p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.room-feature {
+    padding: 18px 2px 0;
+    color: #777;
+}
+
+.room-feature span {
+    display: block;
+    color: #e43d3d;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.room-feature p {
+    margin: 4px 0 0;
+    font-size: 18px;
+}
+
+/* Image and Room Content */
+.room-content {
+    min-width: 0;
+}
+
+.room-image {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.room-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.room-size {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 7px 12px;
+    color: #fff;
+    background: rgba(16, 45, 82, 0.7);
+    font-size: 17px;
+}
+
+.room-card .card-title {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #102d52;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.room-card .card-text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.room-button {
+    width: 100%;
+    background: #e43d3d;
+    border-color: #e43d3d;
+    border-radius: 4px;
+    padding: 12px 5px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
